@@ -2,4 +2,8 @@
 
 ## Made by Pannawat && Rapeepat
 
-https://www.canva.com/design/DAGxtxQtHQI/lnnpNMsnd34BEAxzPMot9Q/view
+### Presentation
+
+[Preview](./Seminar_2.jpg)](https://www.canva.com/design/DAGxtxQtHQI/lnnpNMsnd34BEAxzPMot9Q/view)
+
+
