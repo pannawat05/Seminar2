@@ -1,3 +1,3 @@
 # Seminar2
 
-##Made by Pannawat && Rapeepat
+## Made by Pannawat && Rapeepat
