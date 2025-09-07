@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 plt.rcParams['font.family'] = 'tahoma'
 
 file_path = "ข้อมูลย้อนหลังของ ดัชนี SET.csv"
-next_day = 32
+next_day = 22
 
 try:
     # โหลดข้อมูล (ใส่ encoding ให้รองรับภาษาไทย)
@@ -38,7 +38,7 @@ try:
             print(f"➡️ พยากรณ์หุ้นวันที่ {next_day} คือ {predict.round(2)} ")
 
             # วาดกราฟ
-            plt.plot(d, s, 'o', label="ราคาหุ้นจริง")
+            plt.plot(d, s, label="ราคาหุ้นจริง")
             plt.plot(d, poly(d), label="เส้นแนวโน้ม")
             plt.scatter(next_day, predict, color="red", label="ค่าที่พยากรณ์")
             plt.xlabel("วันที่")
